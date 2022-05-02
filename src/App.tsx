@@ -1,5 +1,18 @@
+interface ButtonProps {
+  text?: string;
+}
+
+function Button(props: ButtonProps) {
+  return <button>{props.text ?? "Default"}</button>;
+}
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <Button text="Enviar" />
+      <Button text="Ok" />
+    </div>
+  );
 }
 
 export default App;

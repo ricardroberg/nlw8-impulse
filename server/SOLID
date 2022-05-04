@@ -1,0 +1,13 @@
+S.O.L.I.D: Os 5 princípios da POO
+
+S — 1. Single Responsiblity Principle (Princípio da responsabilidade única)
+O — 2. Open-Closed Principle (Princípio Aberto-Fechado)
+L — 3. Liskov Substitution Principle (Princípio da substituição de Liskov)
+I — 4. Interface Segregation Principle (Princípio da Segregação da Interface)
+D — 5. Dependency Inversion Principle (Princípio da inversão da dependência)
+
+1. Cada classe/função tem uma responsabilidade unica;
+2. As classes da aplicação devem ser abertas para extensão mas fechadas para modificação;
+3. Nós devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando;
+4. Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar;
+5. ...
